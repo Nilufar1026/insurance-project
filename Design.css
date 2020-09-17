@@ -1,5 +1,6 @@
 *{
     background: #E5E5E5;
+    max-width: 1000px;
 }
 
 /*header-----------*/
@@ -75,6 +76,17 @@ img{
 
      /*main------*/
 
+     .main1{
+         background-color:#a6a6a6;
+         position: absolute;
+width: 1002px;
+height: 600px;
+left: 219px;
+top: 400px;
+        
+         
+     }
+
      .what{
         position: absolute;
         width: 350px;
@@ -101,6 +113,7 @@ img{
             width: 300px;
             height: 35px;
             border-color: white;
+            
         }
     
         .l1{
@@ -116,6 +129,7 @@ img{
             
             
             color: white;
+            background: #a6a6a6;
     
         }
     
@@ -134,6 +148,7 @@ img{
             
             
             color: white;
+            background: #a6a6a6;
     
         }
     
