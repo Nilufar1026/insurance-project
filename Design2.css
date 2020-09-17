@@ -1,0 +1,131 @@
+*{
+background: #E5E5E5;
+position: relative;
+width: 1440px;
+height: 2992px;
+}
+
+.a{
+    background:  #C7DDEA;
+      height:340px;
+      width:334px;
+      top:1904px;
+    left:219px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .b{
+    background:  white;
+    height:340px;
+    width:334px;
+    top:1904px;
+  left:553px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.c{
+  background: #EBEBEB;
+  height:340px;
+  width:334px;
+  top:1904px;
+  left:887px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d{
+    background: #FFFFFF;
+    height: 340px;
+    width: 334px;
+    top: 2244px;
+    left: 219px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+ .e{
+    background: #F17949;
+    height: 340px;
+    width: 334px;
+    top: 2244px;
+    left: 553px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.f{    
+    background: #FFFFFF;
+    height: 340px;
+    width: 334px;
+    top: 2244px;
+    left: 887px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+.g{
+    position: absolute;
+    width: 1002px;
+    height: 68px;
+    left: 219px;
+    top: 2584px;
+    background: #A9A19E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+        
+.h{
+    background: #777574;
+    width: 1002px;
+    height: 340px;
+    left: 219px;
+    top: 2652px;
+    position: absolute;
+  }
+
+  
+    justify-content: flex-start;
+  color: #777574;
+  
+
+
+align-items: center;
+text-align: center;
+position: absolute;
+width: 314px;
+height: 101px;
+left: 229px;
+top: 2023px;
+font-family: Fira Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+
+
+  
+            
+
