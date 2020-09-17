@@ -22,7 +22,7 @@ body{
     
     .blue3{
         position: absolute;
-    width: 314px;
+    width: 300px;
     height: 101px;
     left: 80px;
     top: 25px;
@@ -30,7 +30,7 @@ body{
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100%;
     /* or 45px */
     
@@ -43,9 +43,9 @@ body{
     
     .blue1{
         position: absolute;
-    width: 260px;
+    width: 350px;
     height: 103px;
-    left: 130px;
+    left: 80px;
     top: 140px;
     
     font-family: Fira Sans;
