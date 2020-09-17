@@ -1,7 +1,9 @@
 *{
     background: #E5E5E5;
+    max-width: 1000px;
 }
 
+/*header-----------*/
 .blue{
 position: absolute;
 width: 1002px;
@@ -69,6 +71,138 @@ img{
              
          }
      }
+
+     /*finish header--------*/
+
+     /*main------*/
+
+     .main1{
+         background-color:#a6a6a6;
+         position: absolute;
+width: 1002px;
+height: 600px;
+left: 219px;
+top: 400px;
+        
+         
+     }
+
+     .what{
+        position: absolute;
+        width: 350px;
+        height: 140px;
+        left: 100px;
+        top: 80px;
+        
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: 1000;
+        font-size: 50px;
+        line-height: 50px;
+        /* or 171% */
+        
+        
+        color:white ;
+        background: #a6a6a6;
+        
+        }
+    
+        #email{
+            margin: 140px 500px;
+            background-color: white;
+            width: 300px;
+            height: 35px;
+            border-color: white;
+            
+        }
+    
+        .l1{
+            position: absolute;
+            
+            left: 510px;
+            top: 135px;
+            
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: 1000;
+            font-size: 16px;
+            
+            
+            color: white;
+            background: #a6a6a6;
+    
+        }
+    
+        .l2{
+    
+    
+            position: absolute;
+            
+            left: 510px;
+            top: 250px;
+            
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: 1000;
+            font-size: 16px;
+            
+            
+            color: white;
+            background: #a6a6a6;
+    
+        }
+    
+    
+        
+        #comment{
+            margin: -80px 500px;
+            
+            position: absolute;
+            background-color: white;
+            
+            border-color: white;
+        }
+    
+    
+        .btn1{
+            position: absolute;
+        width: 131px;
+        height: 39px;
+        left: 690px;
+        top: 480px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 100px;
+        border-color: #FFFFFF;
+        }
+        
+        .l3{
+         
+        
+        font-family: Arial black;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        
+        
+        color: rgba(0, 0, 0, 0.8);
+        background-color: white;
+        }
+
+
+     /*finish main--------*/
+
+
+
+
+     /*footer------*/
+
+
+     /*finish footer-------*/
+
+
 
     
         
