@@ -1,12 +1,18 @@
 *{
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
+body{
+   background-color: #e5e5e5;
+   font-size: 14px;
 }
-/*header-----------*/
+header-----------
+.wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    max-width: 1000px;
+    margin: auto;
+}
 
 .blue{
 
@@ -105,7 +111,7 @@
     
     
     
-    .orange3{
+    .orange{
     position: absolute;
     width: 501px;
     height: 272px;
@@ -261,6 +267,7 @@
         
 
 /*slut header--------*/
+
 /* main----------------*/
 main{
     display: flex;
@@ -268,12 +275,12 @@ main{
 
 }
 .grid-container1{
-    background: linear-gradient(to top, #FAB131 50%,  #A9A19E 50%);
+    background: linear-gradient(to top,#FAB131 50%, #A9A19E 50%);
     display: flex;
     flex-direction: column;
     max-width: 960px;
-    margin-top: 600px;
-    margin-left: 40px;
+    margin-top: 550px;
+    margin-left: 44px;
 }
 
 .item{
@@ -319,7 +326,7 @@ main{
 }
 
 .card-imag-top1{
-    max-width: 210px;
+    width: 200px;
     height: 150px;
     object-fit: contain;
     background-color: #C7DDEA;
@@ -428,22 +435,38 @@ main{
     margin-left: 177px;
 }
 @media (max-width: 650px) {
-    body{
-        max-width: 100%;
-        background: #EBEBEB;
-    }
-    
     .wrapper{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-rows: auto auto auto;
+
     }
     
+    .grid-container1{
+        max-width: 70%;
+        margin: 0px 10px 0px 10px;
+        
+        
+    }
+    .grey{
+        
+        background-color: #A9A19E;  
+        position: relative;
+        overflow: hidden;
+    }
+    .orange{
+       
+        background-color: #FAB131;
+        position: relative;
+        overflow: visible;
+    }
+
     .flexbox{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         align-items: flex-end;
     }
+    
 
 }
 /*slut main-------------------*/
