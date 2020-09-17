@@ -197,10 +197,58 @@ top: 400px;
 
 
 
-     /*footer------*/
+ /*footer------*/
+     
+section.map{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/map.png);
+    margin-top: 1000px;
+    margin-left: 211px;
+    width: 1002px;
+    height: 600px;
+     }
+.box{  
+    border-radius: 16px;
+    margin: 200px auto auto 200px;
+    background-color: #FAB131;
+}
+h{
+    font-family:'Frank Ruhl Libre', serif;
+    font-style: normal;
+    font-size:45px;
+    
+    background-color: #FAB131;
+    color: #FFFFFF;
+    margin: 40px 50px auto 50px;
+}
+p{
+    font-family:'Fira Sans';
+    font-style: normal;
+    font-size:14px;
+    line-height: 24px 143%;   
+    background-color: #FAB131;
+    color:rgba(255, 255, 255, 0.8);
+    margin: 20px auto 100px 50px;
+}
+span.material-icons{
+    margin: 310px 200px auto auto;
+    color:#F17949;
+    font-size: 60px;
+    background-image: url(img/map.png);
+}
+.none{
+    background-color: #777574;
+    display: flex;
+    justify-content: center;
+    margin-left: 211px;
+    width: 1002px;
+    height: 200px;
+}
+   
 
 
-     /*finish footer-------*/
+/*finish footer-------*/
 
 
 
