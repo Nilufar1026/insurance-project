@@ -1,11 +1,9 @@
 *{
-    max-width: 1000px;
-    max-height: 3000px;
-    background: #E5E5E5;
+    box-sizing: border-box;
 }
 
 body{
-    max-width: 70%;
+   
 }
 /*header-----------*/
 
@@ -95,7 +93,6 @@ body{
         position: absolute;
     width: 300px;
     height: 280px;
-    left: 200px;
     top: 260px;
     
     background: url(.png);
@@ -272,16 +269,29 @@ body{
 
 /*slut header--------*/
 /* main----------------*/
+main{
+    display: flex;
+    justify-content: center;
+
+}
 .grid-container1{
-    display: grid;
+    /*display: grid;
     position: relative;
     max-width: 1002px;
     grid-template-rows: repeat(2,612px);
     grid-template-columns: repeat(1,1002px);
     overflow: inherit;
+    */
+    /* margin-left: 212px;
+    margin-top: 600px; */
+    background: linear-gradient(to top, #FAB131 50%,  #A9A19E 50%);
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+
 }
 
-.grey{
+/*.grey{
     grid-row: 1/2;
     grid-column: 1/2;
     width: 1002px;
@@ -297,16 +307,37 @@ body{
     background-color: #FAB131;
     position: relative;
     overflow: visible
+}*/
+.title{
+    display: flex; 
+    width: 100%; 
+    flex-direction: row;
 }
+title1{
+    display:flex; 
+    width: 50%; 
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+title2{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+
+}
+
 
 .flexbox{
     display: flex;
     justify-self: center;
     align-self: center;
     justify-content: space-evenly;
-    position: absolute;
+    
     flex: none;
     flex-direction: row;
+    width: 100%;
 }
 
 .card{
@@ -319,7 +350,7 @@ body{
 }
 
 .card-imag-top1{
-    width: 256px;
+    max-width: 210px;
     height: 150px;
     object-fit: contain;
     background-color: #C7DDEA;
@@ -348,7 +379,6 @@ body{
 
 .card-body,h1,p{
     text-align: center;
-    background-color: white;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: bold;
@@ -364,7 +394,7 @@ h1{
     line-height: 20px;
     color: rgba(0, 0, 0, 0.9);
 }
-.grid-text{
+/*.grid-text{
     display: grid;
     position: absolute;
     max-width: 1002px; 
@@ -438,17 +468,18 @@ h1{
     line-height: 20px;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
-}
-@media (max-width: 300px) {
+}*/
+@media (max-width: 650px) {
     body{
-        max-width: 70%;
+        max-width: 100%;
         background: #EBEBEB;
         
     }
-    .grid-container1{
-        max-width: 70%;
-        margin: 0px 10px 0px 10px;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
     }
+    
     .flexbox{
         flex-direction: column;
         flex-wrap: wrap;
