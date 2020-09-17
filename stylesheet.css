@@ -1,6 +1,7 @@
 *{
-    max-width: 1500px;
+    max-width: 1000px;
     max-height: 3000px;
+    background: #E5E5E5;
 }
 
 body{
@@ -23,7 +24,7 @@ body{
         position: absolute;
     width: 314px;
     height: 101px;
-    left: 130px;
+    left: 80px;
     top: 25px;
     
     font-family: Frank Ruhl Libre;
@@ -37,6 +38,7 @@ body{
     
     color: #000000;
     background: #C7DDEA;
+    
     }
     
     .blue1{
