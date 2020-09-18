@@ -332,6 +332,7 @@ main{
     background-color: #C7DDEA;
     position: relative;
     top: -20px;
+    border-radius: 5px;
 }
 
 .card-imag-top2{
@@ -341,7 +342,7 @@ main{
     background-color: #FAB131;
     position: relative;
     top: -20px;
-
+    border-radius: 5px;
 }
 
 .card-imag-top3{
@@ -351,6 +352,7 @@ main{
     background-color:#F17949;
     position: relative;
     top: -20px;
+    border-radius: 5px;
 }
 .flexbox .card .card-body h1{
     font-family: 'Frank Ruhl Libre', serif;
@@ -442,12 +444,74 @@ main{
     }
     
     .grid-container1{
-        max-width: 70%;
-        margin: 0px 10px 0px 10px;
+        max-width: 100%;
+        margin: 0px ;
         
         
     }
-    .grey{
+    .item{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .grid-container1 .item .item1 h2{
+        text-align: left;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 100%;
+        max-width: 100%;
+        margin-left: 40px;
+    }
+    .grid-container1 .item .item1 button{
+        display:none;
+    }
+    .grid-container1 .item .item2 p{
+        text-align: left;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 100%;
+        margin: 0px auto auto 15px;  
+    }
+    .item1,.item2{
+        width: 100%;
+    }
+    .flexbox{
+        flex-direction: column;
+        align-items: center;
+        background-color: #A9A19E;
+    }
+
+    .card-imag-top1{
+        width: 210px;
+        height: 150px;
+    }
+    .card-imag-top2,.card-imag-top3{
+        width: 236px;
+        height: 150px;
+    }
+    .flexbox .card .card-body h1{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .flexbox .card .card-body p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .grid-container1 .info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid-container1 .info h2{
+        text-align: center;
+    }  
+    .grid-container1 .info p{
+        text-align: left;
+        margin: 20px;
+       
+    }
+    /*.grey{
         
         background-color: #A9A19E;  
         position: relative;
@@ -458,14 +522,9 @@ main{
         background-color: #FAB131;
         position: relative;
         overflow: visible;
-    }
+    }*/
 
-    .flexbox{
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-end;
-    }
+   
     
 
 }
