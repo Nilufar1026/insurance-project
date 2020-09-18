@@ -1,12 +1,18 @@
 *{
-    max-width: 1500px;
-    max-height: 3000px;
+   box-sizing: border-box;
 }
 
 body{
-    max-width: 70%;
+   background-color: #e5e5e5;
+   font-size: 14px;
 }
-/*header-----------*/
+header-----------
+.wrapper{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    max-width: 1000px;
+    margin: auto;
+}
 
 .blue{
 
@@ -19,17 +25,17 @@ body{
     background: #C7DDEA;
     }
     
-    h1{
+    .blue3{
         position: absolute;
-    width: 314px;
+    width: 300px;
     height: 101px;
-    left: 130px;
+    left: 80px;
     top: 25px;
     
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 100%;
     /* or 45px */
     
@@ -37,13 +43,14 @@ body{
     
     color: #000000;
     background: #C7DDEA;
+    
     }
     
     .blue1{
         position: absolute;
-    width: 260px;
+    width: 350px;
     height: 103px;
-    left: 130px;
+    left: 80px;
     top: 140px;
     
     font-family: Fira Sans;
@@ -93,7 +100,6 @@ body{
         position: absolute;
     width: 300px;
     height: 280px;
-    left: 200px;
     top: 260px;
     
     background: url(.png);
@@ -257,54 +263,56 @@ body{
     
       
     
-    @media(max-width:480px){
-        body{
-    
-        }
-    
-        ul{
-    
-    
-        }
-    }
+   
+        
 
 /*slut header--------*/
+
 /* main----------------*/
+main{
+    display: flex;
+    justify-content: center;
+
+}
 .grid-container1{
-    display: grid;
-    position: relative;
-    max-width: 1002px;
-    grid-template-rows: repeat(2,612px);
-    grid-template-columns: repeat(1,1002px);
-    overflow: inherit;
+    background: linear-gradient(to top,#FAB131 50%, #A9A19E 50%);
+    display: flex;
+    flex-direction: column;
+    max-width: 960px;
+    margin-top: 600px;
+    margin-left: 44px;
 }
 
-.grey{
-    grid-row: 1/2;
-    grid-column: 1/2;
-    width: 1002px;
-    background-color: #A9A19E;  
-    position: relative;
-    overflow: hidden;
+.item{
+    display: flex; 
+    width: 100%; 
+    flex-direction: row;
+    margin-left: 50px;
+}
+.item1{
+    display:flex; 
+    width: 50%; 
+    justify-content: space-between;
+    flex-direction: column;
+
 }
 
-.orange{
-    grid-row: 2/3;
-    grid-column: 1/2;
-    width: 1002px;
-    background-color: #FAB131;
-    position: relative;
-    overflow: visible
+.item2{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
 }
+
 
 .flexbox{
     display: flex;
     justify-self: center;
     align-self: center;
     justify-content: space-evenly;
-    position: absolute;
     flex: none;
     flex-direction: row;
+    width: 100%;
 }
 
 .card{
@@ -314,15 +322,17 @@ body{
     padding-right: 20px;
     border-radius: 2%;
     margin: 20px;
+    max-height: 308px;
 }
 
 .card-imag-top1{
-    width: 256px;
+    width: 200px;
     height: 150px;
     object-fit: contain;
     background-color: #C7DDEA;
     position: relative;
     top: -20px;
+    border-radius: 5px;
 }
 
 .card-imag-top2{
@@ -332,7 +342,7 @@ body{
     background-color: #FAB131;
     position: relative;
     top: -20px;
-
+    border-radius: 5px;
 }
 
 .card-imag-top3{
@@ -342,44 +352,43 @@ body{
     background-color:#F17949;
     position: relative;
     top: -20px;
+    border-radius: 5px;
 }
-
-.card-body,h1,p{
-    text-align: center;
-    background-color: white;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 11px;
-    line-height: 164%;
-    color: rgba(0, 0, 0, 0.4);
-}
-h1{
-    font-family: Frank Ruhl Libre;
+.flexbox .card .card-body h1{
+    font-family: 'Frank Ruhl Libre', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.9);
+    text-align: center;
 }
-.grid-text{
-    display: grid;
-    position: absolute;
-    max-width: 1002px; 
-    max-height: 612px;
-    grid-template-rows: repeat(1,612px);
-    grid-template-columns: repeat(2,501px);
-    background-color: none;
+.flexbox .card .card-body p{
+    font-family:'Fira Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 164%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
 }
-.item1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+.grid-container1 .item .item2 p{
+    text-align: center;
+    font-family:  'Fira Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 171%;
+    color: rgba(0, 0, 0, 0.4);
+    max-width: 260px;
+    font-weight: 500;
+    margin-top: 80px;
 }
-.grid-container1 .grey .grid-text .item1 h2{
+.grid-container1 .item .item1 h2{
     max-width: 300px;
     text-align: center;
-    font-family: Frank Ruhl Libre;
+    font-family: 'Frank Ruhl Libre', serif;
     font-style: normal;
     font-weight: 900;
     font-size: 45px;
@@ -388,9 +397,9 @@ h1{
     color: #FFFFFF;
     margin-top: 100px;
 }
-.grid-container1 .grey .grid-text .item1 button{
+.grid-container1 .item .item1 button{
     display: inline-block;
-    font-family: Fira Sans;
+    font-family: 'Fira Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 10px;
@@ -404,56 +413,105 @@ h1{
     background-color: white;
     text-align:center;
     transition: all 0.2s;
+    max-width: 120px;
+    margin-left: 70px;
 }
-.grid-container1 .grey .grid-text .item2 p{
+.grid-container1 .info h2{
     text-align: center;
-    background-color: #A9A19E;
-    margin-top: 100px;
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.6);
-    max-width: 300px;
-}
-.grid-container1 .orange h2{
-    margin-top: 200px;
-    text-align: center;
-    font-family: Frank Ruhl Libre;
+    font-family: 'Frank Ruhl Libre', serif;
     font-style: normal;
     font-size: 45px;
     line-height: 100%;
     color: #FFFFFF;
 }  
-.grid-container1 .orange p{
+.grid-container1 .info p{
     text-align: center;
     background-color:  #FAB131; 
-    font-family: Fira Sans;
+    font-family: 'Fira Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
-    text-align: center;
     color: rgba(0, 0, 0, 0.6);
+    max-width: 510px;
+    margin-left: 177px;
 }
-@media (max-width: 300px) {
-    body{
-        max-width: 70%;
-        background: #EBEBEB;
+@media (max-width: 650px) {
+    .wrapper{
+        display: grid;
+        grid-template-rows: auto auto auto;
+
+    }
+    
+    .grid-container1{
+        max-width: 100%;
+        margin: 0px ;
+        
         
     }
-    .grid-container1{
-        max-width: 70%;
-        margin: 0px 10px 0px 10px;
+    .item{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .grid-container1 .item .item1 h2{
+        text-align: left;
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 100%;
+        max-width: 100%;
+        margin-left: 40px;
+    }
+    .grid-container1 .item .item1 button{
+        display:none;
+    }
+    .grid-container1 .item .item2 p{
+        text-align: left;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        max-width: 100%;
+        margin: 0px auto auto 15px;  
+    }
+    .item1,.item2{
+        width: 100%;
     }
     .flexbox{
         flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-end;
+        align-items: center;
+        background-color: #A9A19E;
     }
 
+    .card-imag-top1{
+        width: 210px;
+        height: 150px;
+    }
+    .card-imag-top2,.card-imag-top3{
+        width: 236px;
+        height: 150px;
+    }
+    .flexbox .card .card-body h1{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .flexbox .card .card-body p{
+        font-size: 11px;
+        line-height: 18px;
+    }
+    .grid-container1 .info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid-container1 .info h2{
+        text-align: center;
+    }  
+    .grid-container1 .info p{
+        text-align: left;
+        margin: 20px;
+       
+    }
+   
 }
 /*slut main-------------------*/
 /*footer-------------------*/
@@ -555,24 +613,5 @@ h1{
     left: 219px;
     top: 2652px;
     position: absolute;
-  }
-/*slut footer---------------*/
-
-    
-    
-
-
-
-    
-    
-    
-
-
-    
-
-
-    
-    
-    
-    
-
+    }
+    /*slut footer------*/
