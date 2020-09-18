@@ -184,9 +184,7 @@ body{
     color: #FFFFFF;
     
         background: #F17949;
-        
-        
-        
+
     }
     
     
@@ -445,7 +443,117 @@ main{
         grid-template-rows: auto auto auto;
 
     }
+
+    .fl1{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        
+        flex-direction: column;
+        
+    }
+    .blue{
+        width: 420px;
+        height: 650px;
+        margin-left: auto;
+        margin-top: 0px;
+        
+        background: #C7DDEA;
+        }
+
+
+        .img11{
+            position: absolute;
+        width: 370px;
+        height: 300px;
+        top: 350px;
+        left: 40px;
+       
+        }
+
+        .btn{
+            position: absolute;
+        width: 121px;
+        height: 39px;
+        left: 60px;
+        top: 300px;
+        
+        background: #FFFFFF;
+        box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 50px;
+        border-color: #FFFFFF;
+        }
+
+
+        .orange{
+            
+            width: 420px;
+            height: 250px;
+            margin-left: auto;
+            margin-top: 650px;
+            
+            background: #F17949;
+            }
+            .yellow{
+                
+                width: 420px;
+                height: 250px;
+                margin-left: auto;
+                margin-top: 900px;
+                
+                background: #FAB131;
+                }
+                
+    .yellow1{
+        
+        width: 250px;
+        height: 17px;
+        margin-left: 150px;
+        margin-top: 1030px;
+        
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 13px;
+        
+        letter-spacing: -0.02em;
+        
+        color: rgba(0, 0, 0, 0.5);
+        
     
+        background: #FAB131;
+    }
+    
+    
+    
+    .yellow2{
+        position: absolute;
+    width: 250px;
+    height: 41px;
+    margin-left: 140px;
+    margin-top: 1050px;
+    
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+    
+    color: #FFFFFF;
+    
+    background: #FAB131;
+       
+    }
+
+    .nav{
+        display: none;
+    }
+
     .grid-container1{
         max-width: 100%;
         margin: 0px ;
