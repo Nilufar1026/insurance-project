@@ -6,7 +6,8 @@ body{
    background-color: #e5e5e5;
    font-size: 14px;
 }
-header-----------
+/*header-----------*/
+
 .wrapper{
     display: grid;
     grid-template-rows: auto auto auto;
@@ -14,13 +15,15 @@ header-----------
     margin: auto;
 }
 
+
+
 .blue{
 
     position: absolute;
-    width: 501px;
+    width: 440px;
     height: 544px;
-    left: 219px;
-    top: 0px;
+    margin-left: 85px;
+    margin-top: 0px;
     
     background: #C7DDEA;
     }
@@ -29,7 +32,7 @@ header-----------
         position: absolute;
     width: 300px;
     height: 101px;
-    left: 80px;
+    left: 60px;
     top: 25px;
     
     font-family: Frank Ruhl Libre;
@@ -48,14 +51,14 @@ header-----------
     
     .blue1{
         position: absolute;
-    width: 350px;
+    width: 300px;
     height: 103px;
-    left: 80px;
+    left: 60px;
     top: 140px;
     
     font-family: Fira Sans;
-    font-style: normal;
-    font-weight: 500;
+    
+    font-weight: 600;
     font-size: 16px;
     line-height: 24px;
     /* or 171% */
@@ -72,14 +75,15 @@ header-----------
     
     .btn{
         position: absolute;
-    width: 131px;
+    width: 121px;
     height: 39px;
-    left: 130px;
+    left: 60px;
     top: 326px;
     
     background: #FFFFFF;
     box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 100px;
+    border-radius: 50px;
+    border-color: #FFFFFF;
     }
     
     label{
@@ -88,7 +92,7 @@ header-----------
     font-family: Arial black;
     font-style: normal;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 12px;
     
     
@@ -96,11 +100,13 @@ header-----------
     background-color: white;
     }
     
-    img{
+    .img11{
         position: absolute;
     width: 300px;
     height: 280px;
-    top: 260px;
+    top: 265px;
+    left: 130px;
+    
     
     background: url(.png);
     }
@@ -113,20 +119,20 @@ header-----------
     
     .orange{
     position: absolute;
-    width: 501px;
+    width: 430px;
     height: 272px;
-    left: 720px;
-    top: 0px;
+    margin-left: 525px;
+    margin-top: 0px;
     
     background: #F17949;
     }
     
     .yellow{
     position: absolute;
-    width: 501px;
+    width: 430px;
     height: 272px;
-    left: 720px;
-    top: 272px;
+    margin-left: 525px;
+    margin-top: 270px;
     
     background: #FAB131;
     }
@@ -136,13 +142,13 @@ header-----------
         position: absolute;
         width: 250px;
         height: 14px;
-        left: 180px;
-        top: 85px;
+        margin-left: 150px;
+        margin-top: 120px;
         
         font-family: Fira Sans;
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 11px;
         line-height: 13px;
         display: flex;
         align-items: center;
@@ -162,13 +168,13 @@ header-----------
         position: absolute;
     width: 250px;
     height: 1px;
-    left: 150px;
-    top: 100px;
+    margin-left: 130px;
+    margin-top: 160px;
     
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 41px;
     display: flex;
     align-items: center;
@@ -188,17 +194,15 @@ header-----------
         position: absolute;
         width: 250px;
         height: 17px;
-        left: 900px;
-        top: 350px;
+        margin-left: 680px;
+        margin-top: 380px;
         
         font-family: Fira Sans;
         font-style: normal;
         font-weight: bold;
-        font-size: 15px;
+        font-size: 11px;
         line-height: 13px;
-        display: flex;
-        align-items: center;
-        text-align: center;
+        
         letter-spacing: -0.02em;
         
         color: rgba(0, 0, 0, 0.5);
@@ -213,13 +217,13 @@ header-----------
         position: absolute;
     width: 250px;
     height: 41px;
-    left: 880px;
-    top: 350px;
+    margin-left: 670px;
+    margin-top: 400px;
     
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 41px;
     display: flex;
     align-items: center;
@@ -237,16 +241,15 @@ header-----------
     }
     
     ul {
+        position: absolute;
         display: flex;
         justify-content: space-between;
         list-style-type: none;
-        margin: 50px 370px;
+        margin-top: 565px;
+        margin-left: 250px;
         padding: 0;
         
-       
-        position: absolute;
-        bottom: 0;
-        width: 40%;
+        width: 500px;
       }
       
       li {
