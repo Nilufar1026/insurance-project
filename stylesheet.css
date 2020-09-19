@@ -282,6 +282,7 @@ main{
     max-width: 960px;
     margin-top: 600px;
     margin-left: 44px;
+    
 }
 
 .item{
@@ -557,8 +558,8 @@ main{
     .grid-container1{
         max-width: 100%;
         margin: 0px ;
-        
-        
+        margin-top: 1100px;
+        width: 420px;
     }
     .item{
         flex-direction: column;
