@@ -63,14 +63,7 @@ img{
         top: 340px;
         position: absolute;
     }
-     @media (max-width:480px){
-         body{
-             
-         }
-         ul{
-             
-         }
-     }
+ 
 
      /*finish header--------*/
 
