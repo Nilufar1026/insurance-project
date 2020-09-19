@@ -34,10 +34,10 @@ background-color: #C7DDEA;
 
 img{
     position: absolute;
-    width: 100px;
-    height: 279px;
-    right: 500px;
-    top: 90px;
+    width: 180px;
+    height: 290px;
+    top: 50px;
+    margin-left: 920px;
     background:url(Frame.ong) ;
     }
 
