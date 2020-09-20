@@ -713,9 +713,17 @@ main{
 }
 /*slut main-------------------*/
 /*footer-------------------*/
+*{display: flex;
+    margin-bottom: 47px;
+    margin-left: 15px;
+}
 
+<<<<<<< HEAD
+.a{
+=======
 
     .a{
+>>>>>>> 970fcb58c0d1673eef5aded928fd83e6bea2fa09
     background-color: #C7DDEA;
     height: 250px;
     width: 290px;
@@ -809,6 +817,9 @@ main{
     }
    
     
+    
+    
+     
     .g{
         position: absolute;
         width: 870px;
