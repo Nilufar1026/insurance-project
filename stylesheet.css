@@ -438,12 +438,6 @@ main{
     max-width: 510px;
     margin-left: 177px;
 }
-
-.ss{
-    margin-top: 0px;
-    margin-left: 120px;
-}
-
 @media (max-width: 650px) {
     .wrapper{
         display: grid;
@@ -625,87 +619,120 @@ main{
     }
 
 
-   .ss{
-       margin-top: auto;
-       margin-left: -90px;
-   }
-
    
     .a{
         background-color: #C7DDEA;
         height: 250px;
         width: 290px;
         margin-left: auto;
-        margin-top: auto;
-        font-size: 40px;
-        
-            
-            position: absolute;
-        }
+        margin-bottom: 20px;
     
-        .b{ 
-            background-color:white;
-            height: 250px;
-        width: 290px;
-        margin-right: auto;
-        margin-top: auto;
-        position: absolute;
         }
 
-        .c{
-            background-color:#EBEBEB;
-            height: 250px;
-            width: 290px;
-            margin-left: auto;
-            margin-top: auto;
-            position: absolute;
+
         
-        }
-
-        .d{
-            background-color: white;
-            height: 250px;
-            width: 290px;
-            margin-left: 300px;
-            margin-top: 1500px;
+    .b{ 
+        background-color:white;
+        height: 250px;
+    width: 290px;
+    margin-left: 380px;
+    margin-bottom: 2000px;
+    position: absolute;
+    }
+    .text{  display: flex;
+        justify-content: center;
+        align-items: center;   
+        margin-top: 120px;
+        font-size: medium;
+    }
+  
+    .c{
+        background-color:#EBEBEB;
+        height: 250px;
+        width: 290px;
+        margin-left: 670px;
+        margin-bottom: 2000px;
         position: absolute;
-        }  
 
+    }  
+    .text1{  display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 120px;
+        font-size: medium;
+    }
+   
+    
+    
+    .d{
+        background-color: white;
+        height: 250px;
+        width: 290px;
+        margin-left: 90px;
+        margin-top:249px;
+    position: absolute;
+    }  
+    .text2{  display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-top: 120px;
+        font-size: 205x;
+    }
 
-        .e{
-            background-color: darkorange;
-            position: absolute;
-       height: 250px;
-       width: 290px;
-       margin-left: 100px;
-       margin-top: 800px;
+     .e{
+         background-color: darkorange;
+         position: absolute;
+    height: 250px;
+    width: 290px;
+    margin-left: 380px;
+    margin-top:249px;
+     }
+     .text3{  display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 120px; 
+        font-size: medium; 
+    }
+  
+    
+     .f{
+         background-color: white;
+         position: absolute;
+         height: 250px;
+         width: 290px;
+         margin-left: 670px;
+         margin-top:249px;
+     }
+     .text4{  
+         display: flex;
+        justify-content: center;
+        align-items: center; 
+        margin-top: 120px;  
+        font-size: medium;
+    }
+   
+    
+    .g{
+        position: absolute;
+        width: 870px;
+        height: 68px;
+        margin-left: 90px;
+        margin-top: 499px;
+        background: #A9A19E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: medium;
         }
-
-        .f{
-            background-color: white;
-            position: absolute;
-            height: 250px;
-            width: 290px;
-            margin-left: 670px;
-            margin-top:249px;
-        }
-
-        .g{
-            position: absolute;
-            width: 870px;
-            height: 68px;
-            margin-left: 700px;
-            margin-top: -1000px;
-            background: #A9A19E;
-            }
-
-
-
-
-
-
-
-
+            
+    .h{
+        background: #777574;
+        width: 870px;
+        height: 340px;
+        left: 98px;
+        top: 2150px;
+        position: absolute;
+      }
 
 
 
@@ -713,17 +740,9 @@ main{
 }
 /*slut main-------------------*/
 /*footer-------------------*/
-*{display: flex;
-    margin-bottom: 47px;
-    margin-left: 15px;
-}
 
-<<<<<<< HEAD
-.a{
-=======
 
     .a{
->>>>>>> 970fcb58c0d1673eef5aded928fd83e6bea2fa09
     background-color: #C7DDEA;
     height: 250px;
     width: 290px;
@@ -817,9 +836,6 @@ main{
     }
    
     
-    
-    
-     
     .g{
         position: absolute;
         width: 870px;
@@ -837,8 +853,8 @@ main{
         background: #777574;
         width: 870px;
         height: 340px;
-        margin-left: 90px;
-        margin-top: 567px;
+        left: 98px;
+        top: 2150px;
         position: absolute;
       }
 
