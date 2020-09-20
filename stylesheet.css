@@ -625,15 +625,18 @@ main{
     }
 
 
-   
+   .ss{
+       margin-top: auto;
+       margin-left: -90px;
+   }
 
    
     .a{
         background-color: #C7DDEA;
         height: 250px;
         width: 290px;
-        margin-left: 600px;
-        margin-top: 600px;
+        margin-left: auto;
+        margin-top: auto;
         font-size: 40px;
         
             
@@ -644,8 +647,8 @@ main{
             background-color:white;
             height: 250px;
         width: 290px;
-        margin-right: 700px;
-        margin-top: 900px;
+        margin-right: auto;
+        margin-top: auto;
         position: absolute;
         }
 
@@ -653,8 +656,8 @@ main{
             background-color:#EBEBEB;
             height: 250px;
             width: 290px;
-            margin-left: 300px;
-            margin-top: 1200px;
+            margin-left: auto;
+            margin-top: auto;
             position: absolute;
         
         }
