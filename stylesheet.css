@@ -445,14 +445,8 @@ main{
 
     }
 
-    .fl1{
-        display: flex;
-        width: 200px;
-        height: 200px;
-        
-        flex-direction: column;
-        
-    }
+    
+    
     .blue{
         width: 420px;
         height: 650px;
