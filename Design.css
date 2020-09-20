@@ -64,6 +64,11 @@ img{
         position: absolute;
     }
  
+    ul li a{
+        text-decoration: none;
+        background-color: white;
+        color:gray; 
+    }
 
      /*finish header--------*/
 
