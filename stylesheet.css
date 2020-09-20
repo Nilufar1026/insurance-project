@@ -627,8 +627,12 @@ main{
 }
 /*slut main-------------------*/
 /*footer-------------------*/
+*{display: flex;
+    margin-bottom: 47px;
+    margin-left: 15px;
+}
 
-    .a{
+.a{
     background-color: #C7DDEA;
     height: 340px;
     width: 334px;
@@ -761,6 +765,9 @@ main{
     color: rgb(97, 95, 94);
     }
     
+    
+    
+     
     .g{
         position: absolute;
         width: 1002px;
