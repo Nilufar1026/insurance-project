@@ -6,7 +6,7 @@ body{
    background-color: #e5e5e5;
    font-size: 14px;
 }
-/*header-----------*/
+/*header-----------done by Shahad Al-kazzaz*/
 
 .wrapper{
     display: grid;
@@ -263,11 +263,9 @@ body{
       }
     
       
-    
-   
-        
 
-/*slut header--------*/
+
+/*slut header--------done by Shahad Al-kazzaz*/
 
 /* main----------------*/
 main{
@@ -445,7 +443,7 @@ main{
 
     }
 
-    
+    /*header (mobile)-----------done by Shahad Al-kazzaz*/
     
     .blue{
         width: 420px;
@@ -548,7 +546,7 @@ main{
     .nav{
         display: none;
     }
-
+/*slut header (mobile)-----------done by Shahad Al-kazzaz*/
     .grid-container1{
         max-width: 100%;
         margin: 0px ;
