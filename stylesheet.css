@@ -631,11 +631,7 @@ main{
 
 
     footer > div {
- 
-        
         display: flex;
-        justify-content: center;
-        align-items: center;
       }
      
       footer div.howItWorks{
@@ -644,7 +640,7 @@ main{
         width: 290px;
         margin-left: 87px;
         margin-bottom: 2000px;
-        font-size: 40px;
+        font-size: 30px;
         justify-content: center;
         align-items: center;
       }
@@ -656,6 +652,8 @@ main{
         margin-left: 377px;
         margin-top: -2250px;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
     }
 
       footer div.backgroundGrey{
@@ -665,6 +663,8 @@ main{
         margin-left: 667px;
         margin-top: -250px;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
       }
 
 
@@ -675,6 +675,8 @@ main{
         margin-left: 87px;
         margin-top: 1px;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
       }
 
 
@@ -686,6 +688,8 @@ main{
         margin-left: 377px;
         margin-top: -250px;
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
 
       }
 
@@ -696,6 +700,8 @@ main{
         margin-left: 667px;
         margin-top: -250px;
         font-size: 15px; 
+        justify-content: center;
+        align-items: center;
       }
 
       footer div.backgroundgrey3{
@@ -705,6 +711,8 @@ main{
         margin-left: 86px;
         margin-top: 0px;
         font-size: 15px; 
+        justify-content: center;
+        align-items: center;
       }
 
       footer div.backgroundgrey4{
@@ -714,13 +722,16 @@ main{
         margin-left: 86px;
         margin-top: -1px;
         font-size: 15px; 
+        justify-content: center;
+        align-items: center;
       }
      
 
 
       
       .number{
-        margin-top: -110px;
+        margin-top: -150px;
+        margin-right: 198px;
         position: absolute;
         font-style: normal;
         font-weight: 900;
@@ -731,18 +742,20 @@ main{
 
     
     .number1{
-      margin-top: -110px;
+      margin-top: -150px;
+      margin-right: 198px;
       position: absolute;
       font-style: normal;
       font-weight: 900;
       font-size: 35px;
       line-height: 100%;
-      color: rgba(0, 0, 0, 0.4));
+      color: rgba(0, 0, 0, 0.4);
   }
 
   
   .number2{
-      margin-top: -110px;
+      margin-top: -150px;
+      margin-right: 198px;
       position: absolute;
       font-style: normal;
       font-weight: 900;
@@ -752,7 +765,8 @@ main{
   }
 
   .number3{
-      margin-top: -110px;
+      margin-top: -150px;
+      margin-right: 198px;
       position: absolute;
       font-style: normal;
       font-weight: 900;
@@ -762,8 +776,9 @@ main{
   }
 
   .number4{
-      margin-top: -110px;
-          position: absolute;
+      margin-top: -150px;
+      margin-right: 198px;
+      position: absolute;
       font-style: normal;
       font-weight: 900;
       font-size: 35px;
