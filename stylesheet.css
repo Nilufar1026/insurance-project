@@ -630,173 +630,145 @@ main{
 /*footer------------start by Shahahd Adil-------*/
 
 
-    .a{
-    background-color: #C7DDEA;
-    height: 250px;
-    width: 290px;
-    margin-left: 340px;
-    margin-bottom: 2000px;
-    font-size: 40px;
-    display: flex;
-        justify-content: center;
-        align-items: center; 
-        position: absolute;
-    }
-    
-    .b{ 
-        background-color:white;
-        height: 250px;
-    width: 290px;
-    margin-left: 630px;
-    margin-bottom: 2000px;
-    position: absolute;
-    }
-    .text{  display: flex;
-        justify-content: center;
-        align-items: center;   
-        margin-top: 120px;
-        font-size: medium;
-    }
-  
-    .c{
-        background-color:#EBEBEB;
-        height: 250px;
-        width: 290px;
-        margin-left:920px;
-        margin-bottom: 2000px;
-        position: absolute;
-
-    }  
-    .text1{  display: flex;
-        justify-content: center;
-        align-items: center;  
-        margin-top: 120px;
-        font-size: medium;
-    }
-   
-    
-    
-    .d{
-        background-color: white;
-        height: 250px;
-        width: 290px;
-        margin-left: 340px;
-        margin-top:249px;
-    position: absolute;
-    }  
-    .text2{  display: flex;
-        justify-content: center;
-        align-items: center;  
-        margin-top: 120px;
-        font-size: 205x;
-    }
-
-     .e{
-         background-color: darkorange;
-         position: absolute;
-    height: 250px;
-    width: 290px;
-    margin-left: 630px;
-    margin-top:249px;
-     }
-     .text3{  display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-top: 120px; 
-        font-size: medium; 
-    }
-  
-    
-     .f{
-         background-color: white;
-         position: absolute;
-         height: 250px;
-         width: 290px;
-         margin-left: 920px;
-         margin-top:249px;
-     }
-     .text4{  
-         display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-top: 120px;  
-        font-size: medium;
-    }
-   
-    
-    .g{
-        position: absolute;
-        width: 870px;
-        height: 68px;
-        margin-left: 340px;
-        margin-top: 499px;
-        background: #A9A19E;
+    footer > div {
+ 
+        
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: medium;
-        }
-            
-    .h{
-        background: #777574;
-        width: 870px;
+      }
+     
+      footer div.howItWorks{
+        background-color: #C7DDEA;
+        height: 250px;
+        width: 290px;
+        margin-left: 87px;
+        margin-bottom: 2000px;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+      }
+
+      footer div.backgroundwhite{
+        background-color: white;
+        height: 250px;
+        width: 290px;
+        margin-left: 377px;
+        margin-top: -2250px;
+        font-size: 15px;
+    }
+
+      footer div.backgroundGrey{
+        background-color: #EBEBEB;
+        height: 250px;
+        width: 290px;
+        margin-left: 667px;
+        margin-top: -250px;
+        font-size: 15px;
+      }
+
+
+      footer div.backgroundwhite1{
+        background-color: white;
+        height: 250px;
+        width: 290px;
+        margin-left: 87px;
+        margin-top: 1px;
+        font-size: 15px;
+      }
+
+
+      footer div.backgroundOrange2{
+     
+        background-color:#F17949;
+        height: 250px;
+        width: 290px;
+        margin-left: 377px;
+        margin-top: -250px;
+        font-size: 15px;
+
+      }
+
+      footer div.backgroundwhite3{
+        background-color: white;
+        height: 250px;
+        width: 290px;
+        margin-left: 667px;
+        margin-top: -250px;
+        font-size: 15px; 
+      }
+
+      footer div.backgroundgrey3{
+        background-color: #A9A19E;
+        height: 68px;
+        width: 872px;
+        margin-left: 86px;
+        margin-top: 0px;
+        font-size: 15px; 
+      }
+
+      footer div.backgroundgrey4{
+        background-color:  #777574;
         height: 340px;
-        margin-left: 340px;
-        margin-top: 567px;
-        position: absolute;
+        width: 872px;
+        margin-left: 86px;
+        margin-top: -1px;
+        font-size: 15px; 
       }
+     
 
-
-      .number{
-          margin-top: -110px;
-          position: absolute;
-          font-style: normal;
-          font-weight: 900;
-          font-size: 35px;
-          line-height: 100%;
-          color: rgb(97, 95, 94);
-      }
 
       
-      .number1{
+      .number{
         margin-top: -110px;
         position: absolute;
         font-style: normal;
         font-weight: 900;
         font-size: 35px;
         line-height: 100%;
-        color: rgb(97, 95, 94);
+        color: rgba(0, 0, 0, 0.4);
     }
 
     
-    .number2{
-        margin-top: -110px;
-        position: absolute;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 35px;
-        line-height: 100%;
-        color: rgb(97, 95, 94);
-    }
+    .number1{
+      margin-top: -110px;
+      position: absolute;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 100%;
+      color: rgba(0, 0, 0, 0.4));
+  }
 
-    .number3{
-        margin-top: -110px;
-        position: absolute;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 35px;
-        line-height: 100%;
-        color: rgb(97, 95, 94);
-    }
+  
+  .number2{
+      margin-top: -110px;
+      position: absolute;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 100%;
+      color:rgba(0, 0, 0, 0.4);
+  }
 
-    .number4{
-        margin-top: -110px;
-            position: absolute;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 35px;
-        line-height: 100%;
-        color: rgb(97, 95, 94);
-        }
-    
-    /*slut footer---- Done by Shahahd Adil-------*/
+  .number3{
+      margin-top: -110px;
+      position: absolute;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 100%;
+      color: rgba(0, 0, 0, 0.4);
+  }
+
+  .number4{
+      margin-top: -110px;
+          position: absolute;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 35px;
+      line-height: 100%;
+      color: rgba(0, 0, 0, 0.4);
+      
+      }
+
