@@ -1,5 +1,6 @@
 *{
    box-sizing: border-box;
+
 }
 
 body{
@@ -619,119 +620,7 @@ main{
 /*slut main (mobile)-----------done by Nilufaer Abulimiti*/
 
    
-    .a{
-        background-color: #C7DDEA;
-        height: 250px;
-        width: 290px;
-        margin-left: auto;
-        margin-bottom: 20px;
-    
-     }
-
-
-        
-    .b{ 
-        background-color:white;
-        height: 250px;
-    width: 290px;
-    margin-left: 380px;
-    margin-bottom: 2000px;
-    position: absolute;
-    }
-    .text{  display: flex;
-        justify-content: center;
-        align-items: center;   
-        margin-top: 120px;
-        font-size: medium;
-    }
-  
-    .c{
-        background-color:#EBEBEB;
-        height: 250px;
-        width: 290px;
-        margin-left: 670px;
-        margin-bottom: 2000px;
-        position: absolute;
-
-    }  
-    .text1{  display: flex;
-        justify-content: center;
-        align-items: center;  
-        margin-top: 120px;
-        font-size: medium;
-    }
    
-    
-    
-    .d{
-        background-color: white;
-        height: 250px;
-        width: 290px;
-        margin-left: 90px;
-        margin-top:249px;
-    position: absolute;
-    }  
-    .text2{  display: flex;
-        justify-content: center;
-        align-items: center;  
-        margin-top: 120px;
-        font-size: 205x;
-    }
-
-     .e{
-         background-color: darkorange;
-         position: absolute;
-    height: 250px;
-    width: 290px;
-    margin-left: 380px;
-    margin-top:249px;
-     }
-     .text3{  display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-top: 120px; 
-        font-size: medium; 
-    }
-  
-    
-     .f{
-         background-color: white;
-         position: absolute;
-         height: 250px;
-         width: 290px;
-         margin-left: 670px;
-         margin-top:249px;
-     }
-     .text4{  
-         display: flex;
-        justify-content: center;
-        align-items: center; 
-        margin-top: 120px;  
-        font-size: medium;
-    }
-   
-    
-    .g{
-        position: absolute;
-        width: 870px;
-        height: 68px;
-        margin-left: 90px;
-        margin-top: 499px;
-        background: #A9A19E;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: medium;
-        }
-            
-    .h{
-        background: #777574;
-        width: 870px;
-        height: 340px;
-        left: 98px;
-        top: 2150px;
-        position: absolute;
-      }
 
 
 
