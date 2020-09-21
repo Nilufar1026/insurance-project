@@ -425,7 +425,7 @@ main{
     color: #FFFFFF;
 }  
 .grid-container1 .info p{
-    text-align: center;
+    text-align: left;
     background-color:  #FAB131; 
     font-family: 'Fira Sans';
     font-style: normal;
@@ -547,6 +547,7 @@ main{
         display: none;
     }
 /*slut header (mobile)-----------done by Shahad Al-kazzaz*/
+/*main (mobile)-------------------by Nilufaer Abulimiti*/
     .grid-container1{
         max-width: 100%;
         margin: 0px ;
@@ -615,7 +616,7 @@ main{
         margin: 20px;
        
     }
-
+/*slut main (mobile)-----------done by Nilufaer Abulimiti*/
 
    
     .a{
